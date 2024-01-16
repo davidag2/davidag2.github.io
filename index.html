@@ -3,77 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>David Arias Giraldo - Professional Profile</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            line-height: 1.6;
-            padding: 20px;
-        }
-        .container {
-            max-width: 700px;
-            margin: auto;
-            background: #fff;
-            padding: 20px;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>David Arias Giraldo - Portfolio</title>
 </head>
 <body>
-    <div class="container">
-        <h1>David Arias Giraldo</h1>
-        <h2>Python & AI Specialist</h2>
-        <p><strong>About Me:</strong> A brief paragraph about your professional background, experiences, and interests.</p>
-        <h3>Contact Information</h3>
-        <ul>
-            <li><strong>Email:</strong> <a href="mailto:davidag2@gmail.com">davidag2@gmail.com</a></li>
-            <li><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank">yourusername</a></li>
-            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/yourusername" target="_blank">yourusername</a></li>
-            <!-- Add other social media links if you wish -->
-        </ul>
-        
-        <h3>Technical Skills</h3>
-        <ul>
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>Artificial Intelligence</li>
-            <li>Machine Learning</li>
-            <!-- Add more skills as needed -->
-        </ul>
-        
-        <h3>Projects</h3>
-        <!-- List your projects with links if available -->
-        <ul>
-            <li><strong>Project Name:</strong> A short description of your project. <a href="https://github.com/yourusername/project" target="_blank">View on GitHub</a></li>
-            <!-- Repeat for other projects -->
-        </ul>
-        
-        <h3>Experience</h3>
-        <ul>
-            <li><strong>Job Title - Company Name</strong> (Year-Year)</li>
-            <li>Description of your role and achievements.</li>
-            <!-- Repeat for other experiences -->
-        </ul>
-        
-        <h3>Education</h3>
-        <ul>
-            <li><strong>Degree</strong> - Institution Name (Year)</li>
-            <!-- Repeat for other degrees or certifications -->
-        </ul>
-        
-        <!-- You can also add a section for publications, certifications, or awards if applicable -->
-        
-    </div>
+    <header>
+        <div class="container">
+            <h1>David Arias Giraldo</h1>
+            <p>Full Stack Engineer & Business Manager</p>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm David Arias Giraldo, a passionate full-stack engineer with a background in business management.</p>
+            <!-- Add more details about yourself here -->
+        </div>
+    </section>
+
+    <section id="technologies" class="section">
+        <div class="container">
+            <h2>Technologies</h2>
+            <p>Here are some of the latest technologies I work with:</p>
+            <ul class="skills-list">
+                <li class="skill-bar" data-level="90">HTML5</li>
+                <li class="skill-bar" data-level="85">CSS3</li>
+                <li class="skill-bar" data-level="95">JavaScript (ES6+)</li>
+                <li class="skill-bar" data-level="80">React.js</li>
+                <li class="skill-bar" data-level="85">Node.js</li>
+                <li class="skill-bar" data-level="75">Express.js</li>
+                <li class="skill-bar" data-level="70">MongoDB</li>
+                <!-- Add more technologies as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-carousel">
+                <div class="project active">
+                    <h3>Project 1</h3>
+                    <p>Description of Project 1.</p>
+                </div>
+                <div class="project">
+                    <h3>Project 2</h3>
+                    <p>Description of Project 2.</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+            <button id="prevBtn" class="carousel-btn">Previous</button>
+            <button id="nextBtn" class="carousel-btn">Next</button>
+        </div>
+    </section>
+
+    <!-- Add more sections as needed -->
+
+    <footer class="section">
+        <div class="container">
+            <p>Contact me at: your@email.com</p>
+            <div class="social-icons">
+                <!-- Add your social icons here with appropriate links -->
+                <a href="#" class="social-icon">LinkedIn</a>
+                <a href="#" class="social-icon">GitHub</a>
+                <a href="#" class="social-icon">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="particles-js"></div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
