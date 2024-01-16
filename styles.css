@@ -45,7 +45,6 @@ ul.skills-list {
     background-color: #ddd;
     border-radius: 5px;
     overflow: hidden;
-    animation: pulse 1s infinite;
 }
 
 .project-carousel {
@@ -105,10 +104,4 @@ footer {
 .dark-mode {
     background-color: #333;
     color: #fff;
-}
-
-@keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.1); }
-    100% { transform: scale(1); }
 }
